@@ -1,0 +1,146 @@
+   body{text-align: center;}
+  #scr-down {
+    position: relative;
+    display: none;
+}
+
+section {
+    position: relative;
+}
+/*Section 1*/
+#intro {
+    height: 100%;
+    width: 100%;
+    
+    display: table;
+    position: relative;
+    z-index: 9;
+    background-image:url(wall.jpg);
+}
+#intro-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#intro-text h1 {
+    
+    color: #fff;
+    padding-top: 1em;
+    display: none;
+    
+}
+#intro-text h1 span {
+    color: #27a7f1;
+    white-space: nowrap;
+    
+}
+#scr-down {
+    position: relative;
+    display: none;
+}
+#scr-down h2 {
+    
+    color: black;
+    padding: 2em 0 .6em;
+    letter-spacing: 2px;
+}
+#scr-down h2 span {
+    
+    letter-spacing: 1px;
+}
+#scr-down img {
+    width: 32px;
+
+}
+/*Section 2*/
+#about {
+    background-color: rgba(230, 255, 255, 0.5);
+    padding: 4.5em 6em 7em;
+    color: #2C2C2C;
+    text-align: center;
+        -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  
+  
+}
+#about article {
+    max-width: 1350px;
+    display: inline-block;
+}
+#about h5 {
+    font: 600 1.4em 'Open Sans', sans-serif;
+    color: #464646;
+    letter-spacing: 4px;
+    margin: 0 auto 2em;
+    width: 6.53em;
+    border-bottom: 1px dotted;
+    text-transform: uppercase;
+    text-align: center;
+}
+#about h1 {
+    font: 400 1.6em 'Open Sans', sans-serif;
+    line-height: 1.2;
+    padding-bottom: .8em;
+    position: relative;
+    letter-spacing: -1px;
+}
+#about h1 span, #about h4 span, #about p span {
+    color: #3899DA;
+}
+#about h1 em {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#about h4 {
+    font: 300 1.5em 'Open Sans', sans-serif;
+    line-height: 1.1;
+    position: relative;
+    padding: .4em 0 1.2em;
+}
+#about p {
+    font: 300 1.3em 'Open Sans', sans-serif;
+    color: #3D3D3D;
+}
+/*Section 3 */
+
+#previewimages{width:auto;
+height:20%;
+padding-left: 10px;}
+
+
+
+#services {
+    padding: 5em 1em;
+    text-align: center;
+    margin: 0 auto;
+   
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#services>h2 {
+ 
+    color: #27A7F1;
+    padding-bottom: .8em;
+}
+#services>h2 span {
+    color: #fff;
+    position: relative;
+}
+#services article div {
+    text-align: left;
+    color: #fff;
+    padding: .3em 0.5em;
+    background: rgba(255, 255, 255, 0.04);
+    font: 400 1.8em 'Open Sans', sans-serif;
+    width: 14em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 1.8% 5%;
+}
+#services article img {
+    float: left;
+    margin-right: .5em;
+}
+      
